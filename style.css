@@ -1,0 +1,530 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 25px;
+  background-color: #5D60D7;
+border-radius: 3px;
+color: whitesmoke;
+
+}
+
+  
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 px ;
+  position: relative;
+  
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.reg{
+  font-size: 50px;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 25px;
+  background-color: #5D60D7;
+border-radius: 3px;
+color: whitesmoke;
+}
+
+
+
+
+.signin{
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+.buybtn{
+    text-align: center;
+    position: relative;top: 10px;
+  }
+  
+  
+  #redtext{
+    color: red;
+  }
+  
+  
+  
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .body{
+    padding: 0px;
+  
+    background-color: white;
+  
+  }
+  
+  .header{
+    height: 100px;
+    background-color:black;
+    padding: 6px;
+    text-align: left;
+    color:white;
+  
+     letter-spacing:1px ;
+    font:caption;
+   font-size: 24px;
+    
+  }
+  
+  .menu{
+    position: sticky;
+    top: 0px;
+    background-color:white ;
+    overflow: hidden;
+    margin: 0px;
+  }
+  
+  .menu a{
+    font: menu;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    box-sizing  :border-box;
+   
+    display: inline-block;
+    text-align:center;
+    padding: 10px 15px;
+  
+  }
+  .image-container{
+    position: relative;
+    z-index: -1;
+    top: 0px;
+  }
+  .image-container .image{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  
+  
+  #menubtns{
+  
+    position: relative;left: 800px;
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  #navigation{
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+   width: 100%;
+  }
+  
+  .landing{
+    position: relative;
+    z-index: -1;
+    top: 0px;
+  }
+  
+  
+  
+  
+  .join-us{
+    position: relative;top: 50px;
+    right: 100px;
+    
+  }
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+   
+  }
+  
+  .container {
+    
+    max-width: 2000px;
+   
+  
+  }
+  
+  
+  
+  
+  .body{
+    background-color: white;
+    width: 100%;
+    max-width: 200px;
+  
+  }
+  
+  .mx-auto{
+    margin-left: 0px;
+  }
+  
+  @media only screen and (max-width: 1440px) {
+   .container {
+      min-width: 340px;
+    }
+  }
+  
+  
+  
+  
+  
+  .container img {vertical-align: middle;}
+  
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+   
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+   
+  }
+  
+    
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+    
